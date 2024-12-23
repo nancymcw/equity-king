@@ -1,4 +1,4 @@
-import ServicesTable from "../Components/ServicesTable";
+import ServicesList from "../Components/ServicesList";
 import johnnyimage from "../assets/images/stock1.png";
 
 export function Home() {
@@ -15,7 +15,7 @@ export function Home() {
         minus. Praesentium provident quas asperiores voluptate rerum neque
         eaque, ipsam quisquam nesciunt! Quaerat tempore corporis doloremque
         doloribus.
-        <ServicesTable />
+        <ServicesList />
       </div>
       REVIEWS WIDGET <br />
       CONTACT ME <br />
