@@ -50,6 +50,14 @@ h1 {
   padding: 2rem;
 }
 
+.services-list {
+  border: 0px;
+  border-radius: 3px !important;
+  .list-group-item {
+    opacity: 85%;
+  }
+}
+
 @media (width <= 480px) {
   .call-me-button {
     color: red;
@@ -60,6 +68,7 @@ h1 {
 
   .call-me-button-phone {
     display: block;
+    margin-left: 4px;
   }
 }
 
