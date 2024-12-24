@@ -7,7 +7,7 @@ export function Navigation() {
   return (
     <Navbar className="bg-body-tertiary" id="navbar">
       <Navbar.Brand href="/">
-        <text className="crown">♚</text> EQUITY KING
+        <span className="crown">♚</span> EQUITY KING
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       {/* <Navbar.Collapse id="basic-navbar-nav"> */}

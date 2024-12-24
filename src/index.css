@@ -32,6 +32,7 @@ body {
   border-radius: 10px;
   border: 2px solid green;
   font-size: large;
+  padding: 2px;
 }
 
 .call-me-button-phone {
