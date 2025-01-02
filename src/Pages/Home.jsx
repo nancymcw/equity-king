@@ -1,3 +1,4 @@
+import { ContactMe } from "../Components/ContactMe";
 import { ReviewsWidget } from "../Components/ReviewsWidget";
 import ServicesList from "../Components/ServicesList";
 import stock3brown from "../assets/images/stock3brown.jpg";
@@ -18,7 +19,8 @@ export function Home() {
         doloribus.
         <ServicesList />
       </div>
-      CONTACT ME <br />
+      <ContactMe />
+      <br />
       <div id="reviews-widget">
         <ReviewsWidget />
       </div>
