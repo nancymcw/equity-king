@@ -1,13 +1,13 @@
 import { ReviewsWidget } from "../Components/ReviewsWidget";
 import ServicesList from "../Components/ServicesList";
-import johnnyimage from "../assets/images/stock1.png";
+import stock3brown from "../assets/images/stock3brown.jpg";
 
 export function Home() {
   return (
     <>
       <div
         style={{
-          backgroundImage: `url(${johnnyimage})`,
+          backgroundImage: `url(${stock3brown})`,
         }}
         className="home-div"
       >
