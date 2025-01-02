@@ -7,3 +7,6 @@ export function ReviewsWidget() {
 
   return <div data-rw-list="44697"></div>;
 }
+{
+  /* <script src="https://app.reviewgrower.com/js/v1/embed.js?token=55fd2b3b-0024-4069-beaa-92346db03a13" type="text/javascript"></script> */
+}
