@@ -1,4 +1,5 @@
 import experiment from "../assets/telephone-fill.svg";
+
 export function CallMe() {
   return (
     <>
@@ -8,7 +9,7 @@ export function CallMe() {
           <img
             src={experiment}
             style={{ height: 25, width: 25 }}
-            alt="Call 763-300-3983"
+            alt="Call 763-296-8176"
           />
         </button>
       </a>

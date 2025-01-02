@@ -1,3 +1,4 @@
+import { ReviewsWidget } from "../Components/ReviewsWidget";
 import ServicesList from "../Components/ServicesList";
 import johnnyimage from "../assets/images/stock1.png";
 
@@ -18,7 +19,7 @@ export function Home() {
         <ServicesList />
       </div>
       CONTACT ME <br />
-      REVIEWS WIDGET <br />
+      <ReviewsWidget /> <br />
       FOOTER with more contact info, business hours, any other info
     </>
   );
