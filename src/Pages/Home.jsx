@@ -17,8 +17,8 @@ export function Home() {
         doloribus.
         <ServicesList />
       </div>
-      REVIEWS WIDGET <br />
       CONTACT ME <br />
+      REVIEWS WIDGET <br />
       FOOTER with more contact info, business hours, any other info
     </>
   );
