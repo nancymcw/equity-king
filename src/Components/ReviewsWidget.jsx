@@ -21,7 +21,7 @@ export function ReviewsWidget() {
 
   //   <div data-rw-list="44697"></div>;
 }
-
+//REPUSO SCRIPT BELOW INCLUDING DIV-RW-LIST
 //   {
 //   const script = document.createElement("script");
 //   script.type = "module";
@@ -30,6 +30,7 @@ export function ReviewsWidget() {
 
 //   return <div data-rw-list="44697"></div>;
 // }
+//REVIEWGOER SCRIPT BELOW
 // {
 //   <script src="https://app.reviewgrower.com/js/v1/embed.js?token=55fd2b3b-0024-4069-beaa-92346db03a13" type="text/javascript"></script>
 // }
