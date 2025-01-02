@@ -19,7 +19,10 @@ export function Home() {
         <ServicesList />
       </div>
       CONTACT ME <br />
-      <ReviewsWidget /> <br />
+      <div id="reviews-widget">
+        <ReviewsWidget />
+      </div>
+      <br />
       FOOTER with more contact info, business hours, any other info
     </>
   );
