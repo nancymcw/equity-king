@@ -1,10 +1,9 @@
 export function ContactMe() {
   return (
     <>
-      <h1>Contact us for a quote!</h1>
-      <h1 className="huge-text">763-300-3983</h1>
-      Or feel free to send me an email at equitykingpainting@poop.com or by
-      using the form below:
+      <h3 className="get-in-touch">Get in touch with us!</h3>
+      <h1 className="huge-text">Call 763-296-8176</h1>
+
       <form action="https://api.web3forms.com/submit" method="POST">
         <input
           type="hidden"
