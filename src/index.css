@@ -60,6 +60,31 @@ h1 {
   }
 }
 
+.huge-text {
+  font-size: 40px;
+  padding-top: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 @media (width <= 480px) {
   .call-me-button {
     color: red;
