@@ -22,6 +22,9 @@ body {
 
 #navbar {
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .crown {
@@ -50,6 +53,7 @@ h1 {
 .home-div {
   padding: 2rem;
   color: #f9f9f9;
+  padding-top: 78px;
 }
 
 .services-list {
