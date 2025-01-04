@@ -5,7 +5,7 @@ export function ReviewsWidget() {
   return (
     <iframe
       src="https://rgwidgets.ravu.me/widgets/render/55fd2b3b-0024-4069-beaa-92346db03a13"
-      width={500}
+      width={400}
       height={500}
     ></iframe>
   );
