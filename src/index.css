@@ -37,7 +37,6 @@ body {
   border: 2px solid green;
   font-size: large;
   padding: 2px;
-  animation: pulse 1.5s infinite;
 }
 
 .call-me-button-phone {
