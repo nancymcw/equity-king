@@ -1,5 +1,6 @@
 import { ContactMe } from "../Components/ContactMe";
 import { ReviewsWidget } from "../Components/ReviewsWidget";
+import { Footer } from "../Components/Footer";
 import ServicesList from "../Components/ServicesList";
 import stock3brown from "../assets/images/stock3brown.jpg";
 
@@ -26,7 +27,7 @@ export function Home() {
         <ReviewsWidget />
       </div>
       <br />
-      FOOTER with more contact info, business hours, any other info
+      <Footer />
     </>
   );
 }
