@@ -3,7 +3,7 @@ import experiment from "../assets/telephone-fill.svg";
 export function CallMe() {
   return (
     <>
-      <a href="tel:763-296-8176">
+      <a href="tel:+1763-296-8176">
         <button className="call-me-button-numbers">(763) 296-8176</button>
         <button className="call-me-button-phone">
           <img
