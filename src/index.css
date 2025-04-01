@@ -75,10 +75,6 @@ h1 {
   padding-top: 78px;
 }
 
-.gallery-div {
-  border: 2px solid red;
-}
-
 .services-list {
   border: 0px;
   border-radius: 5px !important;
@@ -122,6 +118,19 @@ textarea {
 
 .footer {
   font-size: 0.75rem;
+}
+
+/* GALLERY PAGE */
+
+.gallery-div {
+  border: 2px solid red;
+  margin-top: 100px;
+  display: flex;
+}
+
+.gallery-img {
+  max-height: 200px;
+  border-radius: 10px;
 }
 
 @media (width <= 480px) {
