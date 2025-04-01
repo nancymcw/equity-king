@@ -75,6 +75,10 @@ h1 {
   padding-top: 78px;
 }
 
+.gallery-div {
+  border: 2px solid red;
+}
+
 .services-list {
   border: 0px;
   border-radius: 5px !important;
