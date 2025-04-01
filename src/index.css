@@ -22,7 +22,7 @@ body {
 
 #navbar {
   padding: 1rem;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   z-index: 999;
@@ -125,7 +125,9 @@ textarea {
 .gallery-div {
   border: 2px solid red;
   margin-top: 100px;
-  display: flex;
+  width: 100%;
+  background-color: yellow;
+  margin: auto;
 }
 
 .gallery-img {
