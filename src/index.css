@@ -24,7 +24,7 @@ body {
   padding: 1rem;
   /* position: fixed; */
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
 }
 
@@ -37,6 +37,9 @@ body {
   border: 2px solid green;
   font-size: large;
   padding: 2px;
+  animation: pulse 1.5s infinite;
+  background-color: white;
+  color: black;
 }
 
 .call-me-button-phone {
@@ -44,6 +47,7 @@ body {
   border: 2px solid green;
   display: none;
   animation: pulse 1.5s infinite;
+  background-color: white;
 }
 
 @keyframes pulse {
@@ -54,7 +58,7 @@ body {
 
   70% {
     transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
   }
 
   100% {
@@ -133,6 +137,8 @@ textarea {
 .gallery-img {
   max-height: 200px;
   border-radius: 10px;
+  margin: 3px auto;
+  padding: 3px;
 }
 
 @media (width <= 480px) {
