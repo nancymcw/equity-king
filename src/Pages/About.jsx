@@ -5,6 +5,9 @@ export function About() {
     <div
       style={{
         backgroundImage: `url(${john})`,
+        backgroundRepeat: `no-repeat`,
+        width: `100vw`,
+        height: `100vh`,
       }}
       className="about-bio"
     >

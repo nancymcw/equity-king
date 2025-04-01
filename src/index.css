@@ -126,19 +126,32 @@ textarea {
 
 /* GALLERY PAGE */
 
-.gallery-div {
-  /* border: 2px solid red; */
+/* .gallery-div {
   margin-top: 100px;
   width: 100%;
-  /* background-color: yellow; */
   margin: auto;
-}
+} */
 
-.gallery-img {
+/* .gallery-img {
   max-height: 200px;
   border-radius: 10px;
   margin: 3px auto;
   padding: 3px;
+} */
+
+.gallery-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.gallery-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3 / 2;
+  background-color: #ececec;
+  border-radius: 3px;
 }
 
 /* ABOUT PAGE */
