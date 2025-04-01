@@ -127,10 +127,10 @@ textarea {
 /* GALLERY PAGE */
 
 .gallery-div {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 100px;
   width: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   margin: auto;
 }
 
@@ -139,6 +139,13 @@ textarea {
   border-radius: 10px;
   margin: 3px auto;
   padding: 3px;
+}
+
+/* ABOUT PAGE */
+
+.about-bio {
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (width <= 480px) {
