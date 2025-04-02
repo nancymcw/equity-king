@@ -2,17 +2,11 @@ import { ContactMe } from "../Components/ContactMe";
 import { ReviewsWidget } from "../Components/ReviewsWidget";
 import { Footer } from "../Components/Footer";
 import ServicesList from "../Components/ServicesList";
-import stock3brown from "../assets/images/stock3brown.jpg";
 
 export function Home() {
   return (
     <div className="home-wrapper">
-      <div
-        style={{
-          backgroundImage: `url(${stock3brown})`,
-        }}
-        className="home-div"
-      >
+      <div className="home-div">
         <h1>BRINGING YOU QUALITY HOME REFINISHING SINCE 2016...</h1>
         We strive for excellence every time we refinish or reface your cabinets.
         Quality finishing and cabinets are a smart investment in your property.
