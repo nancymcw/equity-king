@@ -67,6 +67,12 @@ body {
   }
 }
 
+@keyframes getbigger {
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -87,6 +93,9 @@ h1 {
     opacity: 85%;
     margin: 2px;
     border-radius: 5px !important;
+  }
+  .list-group-item:hover {
+    animation: getbigger 1s;
   }
 }
 
@@ -141,8 +150,9 @@ textarea {
 
 .gallery-div {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 5px;
+  margin: 20px;
 }
 .gallery-img {
   width: 100%;
@@ -152,6 +162,10 @@ textarea {
   aspect-ratio: 3 / 2;
   background-color: #ececec;
   border-radius: 3px;
+}
+
+.gallery-img:hover {
+  border: 1px solid blue;
 }
 
 /* ABOUT PAGE */
