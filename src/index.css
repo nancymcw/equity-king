@@ -78,7 +78,7 @@ h1 {
     border-radius: 5px !important;
   }
   .list-group-item:hover {
-    animation: onepulse 0.75s;
+    animation: getbigger 60s;
   }
 }
 
@@ -203,6 +203,7 @@ button:hover {
 @keyframes getbigger {
   1% {
     transform: scale(1.05);
+    opacity: 100%;
   }
 }
 
