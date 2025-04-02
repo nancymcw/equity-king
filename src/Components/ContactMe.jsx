@@ -1,9 +1,9 @@
 export function ContactMe() {
   return (
     <>
-      <h3 className="get-in-touch">Get in touch with us!</h3>
-      <h1 className="huge-text">Call 763-296-8176</h1>
-      <h3>Or fill out the form below!</h3>
+      <h3 className="get-in-touch">Get in touch with us</h3>
+      <h2 className="get-in-touch">Call 763-296-8176</h2>
+      <h3 className="get-in-touch">Or fill out the form below</h3>
 
       <form action="https://api.web3forms.com/submit" method="POST">
         <input
