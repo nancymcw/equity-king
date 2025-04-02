@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -11,7 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 body {
   margin: 0;
@@ -68,8 +68,11 @@ body {
 }
 
 @keyframes getbigger {
-  100% {
+  50% {
     transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
@@ -189,7 +192,7 @@ textarea {
   }
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -198,4 +201,4 @@ textarea {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
