@@ -69,7 +69,7 @@ body {
 
 @keyframes getbigger {
   50% {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   100% {
     transform: scale(1);
@@ -98,7 +98,7 @@ h1 {
     border-radius: 5px !important;
   }
   .list-group-item:hover {
-    animation: getbigger 1s;
+    animation: getbigger 0.75s;
   }
 }
 
@@ -130,6 +130,16 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+button {
+  border-radius: 20px !important;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .footer {
