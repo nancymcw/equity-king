@@ -137,7 +137,7 @@ button:hover {
 
 .gallery-div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 5px;
   margin: 20px;
 }
@@ -152,7 +152,7 @@ button:hover {
 }
 
 .gallery-img:hover {
-  animation: onepulse 1s;
+  animation: getbigger 60s;
 }
 
 /* ABOUT PAGE */
@@ -190,6 +190,18 @@ button:hover {
   }
 }
 
+@keyframes getbigger {
+  1% {
+    transform: scale(1.05);
+  }
+  /* from {
+    transform: none;
+  }
+  to {
+    transform: scale(1.05);
+  } */
+}
+
 /* MEDIA QUERIES */
 
 @media (width <= 480px) {
@@ -203,6 +215,24 @@ button:hover {
   .call-me-button-phone {
     display: block;
     margin-left: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gallery-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1281px) {
+  .gallery-div {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
