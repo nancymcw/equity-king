@@ -18,6 +18,12 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(
+    353deg,
+    rgba(68, 68, 68, 1) 0%,
+    rgba(227, 227, 227, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 #navbar {
