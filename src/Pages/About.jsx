@@ -1,17 +1,12 @@
-import john from "../assets/images/john.jpg";
-
 export function About() {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${john})`,
-        backgroundRepeat: `no-repeat`,
-        width: `100vw`,
-        height: `100vh`,
-      }}
-      className="about-bio"
-    >
-      {/* <img src="./src/assets/images/john.jpg" className="about-img" /> */}
+    <div className="about-wrapper">
+      <div className="about-bio">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+        reprehenderit, eos nihil, officia delectus similique, ratione iure
+        quibusdam a aliquam dicta deserunt modi in harum consequuntur numquam
+        debitis at sapiente tempora? Et, ad!
+      </div>
     </div>
   );
 }

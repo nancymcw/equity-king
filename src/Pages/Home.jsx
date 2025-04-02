@@ -6,7 +6,7 @@ import stock3brown from "../assets/images/stock3brown.jpg";
 
 export function Home() {
   return (
-    <>
+    <div className="home-wrapper">
       <div
         style={{
           backgroundImage: `url(${stock3brown})`,
@@ -28,6 +28,6 @@ export function Home() {
       </div>
       <br />
       <Footer />
-    </>
+    </div>
   );
 }
