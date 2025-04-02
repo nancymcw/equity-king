@@ -76,6 +76,7 @@ h1 {
     opacity: 85%;
     margin: 2px;
     border-radius: 5px !important;
+    cursor: pointer;
   }
   .list-group-item:hover {
     animation: getbigger 60s;
