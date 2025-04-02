@@ -67,7 +67,7 @@ body {
   }
 }
 
-@keyframes getbigger {
+@keyframes onepulse {
   50% {
     transform: scale(1.05);
   }
@@ -98,7 +98,7 @@ h1 {
     border-radius: 5px !important;
   }
   .list-group-item:hover {
-    animation: getbigger 0.75s;
+    animation: onepulse 0.75s;
   }
 }
 
@@ -178,7 +178,7 @@ button:hover {
 }
 
 .gallery-img:hover {
-  border: 1px solid blue;
+  animation: onepulse 1s;
 }
 
 /* ABOUT PAGE */
