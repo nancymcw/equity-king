@@ -193,6 +193,7 @@ button:hover {
 @keyframes onepulse {
   50% {
     transform: scale(1.05);
+    opacity: 100%;
   }
   100% {
     transform: scale(1);
