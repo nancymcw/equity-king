@@ -77,6 +77,10 @@ h1 {
     margin: 2px;
     border-radius: 5px !important;
     cursor: pointer;
+    min-width: 12rem;
+    max-width: 40rem;
+    margin-left: 33%;
+    margin-right: 33%;
   }
   .list-group-item:hover {
     animation: getbigger 60s;
