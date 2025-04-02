@@ -35,14 +35,12 @@ body {
 }
 
 .navbar-nav .nav-link {
-  transition: font-weight 0.3s linear;
   transition: scale 0.3s linear;
 }
 
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover {
-  font-weight: bold;
-  scale: 1.2;
+  scale: 1.1;
 }
 
 .crown {
