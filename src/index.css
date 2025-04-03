@@ -189,11 +189,17 @@ button:hover {
 /* ABOUT PAGE */
 
 .about-wrapper {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./assets/images/john.jpg");
+  margin: auto;
+  border: 1px solid red;
+  width: 70vw;
+  height: 70vh;
+  /* background-image: url("./assets/images/john.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.about-bio-row {
+  color: purple;
 }
 
 /* KEYFRAMES */
