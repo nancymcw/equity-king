@@ -202,6 +202,11 @@ button:hover {
   color: purple;
 }
 
+.john-image {
+  border-radius: 10px;
+  animation: fadein 3s;
+}
+
 /* KEYFRAMES */
 
 @keyframes pulse {

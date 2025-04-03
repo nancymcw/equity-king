@@ -7,7 +7,11 @@ export function About() {
     <Container className="about-wrapper">
       <Row className="about-bio-row">
         <Col md={6}>
-          <Image src="./src/assets/images/john.jpg" fluid />
+          <Image
+            src="./src/assets/images/john.jpg"
+            fluid
+            className="john-image"
+          />
         </Col>
         <Col md={6}>Column 2</Col>
       </Row>
