@@ -196,10 +196,8 @@ button:hover {
   /* background-image: url("./assets/images/john.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.about-bio-row {
-  color: purple;
+  background-color: #666;
+  border-radius: 10px;
 }
 
 .john-image {
@@ -207,6 +205,9 @@ button:hover {
   animation: fadein 3s;
 }
 
+#column {
+  margin-top: 1rem;
+}
 /* KEYFRAMES */
 
 @keyframes pulse {
