@@ -171,6 +171,7 @@ button:hover {
   grid-template-columns: repeat(1, 1fr);
   gap: 5px;
   margin: 20px;
+  animation: fadein 5s;
 }
 .gallery-img {
   width: 100%;
@@ -192,7 +193,7 @@ button:hover {
   margin: auto;
   border: 1px solid red;
   width: 70vw;
-  height: 70vh;
+  /* height: 70vh; */
   /* background-image: url("./assets/images/john.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,8 +206,12 @@ button:hover {
   animation: fadein 3s;
 }
 
+.bio-column {
+  animation: fadein 8s;
+}
 #column {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 /* KEYFRAMES */
 
