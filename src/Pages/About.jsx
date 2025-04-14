@@ -32,7 +32,7 @@ export function About() {
         debitis at sapiente tempora? Et, ad!
       </div> */}
       </Container>
-      <Footer />;
+      <Footer />
     </>
   );
 }

@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
+@font-face {
+  font-family: MinervaModern;
+  src: url(/src/assets/fonts/MinervaModern\ Bold.ttf);
+}
+
 body {
   margin: 0;
   display: flex;
@@ -66,6 +71,7 @@ body {
 }
 
 h1 {
+  font-family: MinervaModern;
   font-size: 3.2em;
   line-height: 1.1;
   padding: 2rem;
@@ -78,6 +84,7 @@ h1 {
 }
 
 .home-div {
+  font-family: MinervaModern;
   padding: 2rem;
   color: #f9f9f9;
   padding-top: 78px;
@@ -103,7 +110,8 @@ h1 {
 }
 
 .get-in-touch {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: MinervaModern;
   text-transform: uppercase;
   padding-top: 1rem;
   font-weight: 100;
@@ -116,6 +124,7 @@ h1 {
 }
 
 form {
+  font-family: MinervaModern;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,21 +160,6 @@ button:hover {
   font-size: 0.75rem;
 }
 
-/* GALLERY PAGE */
-
-/* .gallery-div {
-  margin-top: 100px;
-  width: 100%;
-  margin: auto;
-} */
-
-/* .gallery-img {
-  max-height: 200px;
-  border-radius: 10px;
-  margin: 3px auto;
-  padding: 3px;
-} */
-
 .gallery-div {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -173,6 +167,7 @@ button:hover {
   margin: 2.5rem;
   animation: fadein 5s;
 }
+
 .gallery-img {
   width: 100%;
   height: auto;
