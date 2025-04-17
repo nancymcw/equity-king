@@ -68,6 +68,7 @@ body {
 
 h1 {
   font-family: MinervaModern;
+  text-decoration: none !important;
   font-size: 3.2em;
   line-height: 1.1;
   padding: 2rem;
@@ -105,6 +106,15 @@ h1 {
   }
 }
 
+form {
+  border: 3px solid red;
+  padding: 1rem;
+  background-color: white;
+}
+
+input {
+  background-color: rgb(250, 250, 250);
+}
 .get-in-touch {
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: MinervaModern;
@@ -125,6 +135,7 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin: 3rem;
 }
 
 label {
@@ -139,6 +150,7 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 button {
